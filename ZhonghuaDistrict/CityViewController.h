@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CityViewController.h
 //  ZhonghuaDistrict
 //
 //  Created by Darktt on 2016/6/8.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class ZHCity;
+@interface CityViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (retain) NSArray<ZHCity *> *cities;
 
 @end
-

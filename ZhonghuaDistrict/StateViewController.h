@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  StateViewController.h
 //  ZhonghuaDistrict
 //
 //  Created by Darktt on 2016/6/8.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class ZHState;
+@interface StateViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (retain) NSArray<ZHState *> *states;
 
 @end
-

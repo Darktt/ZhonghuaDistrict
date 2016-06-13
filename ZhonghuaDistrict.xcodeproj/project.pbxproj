@@ -13,6 +13,14 @@
 		52983D8E1D07AC1A009C2D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52983D8C1D07AC1A009C2D39 /* Main.storyboard */; };
 		52983D901D07AC1A009C2D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52983D8F1D07AC1A009C2D39 /* Assets.xcassets */; };
 		52983D931D07AC1A009C2D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52983D911D07AC1A009C2D39 /* LaunchScreen.storyboard */; };
+		52983D9D1D07ACB6009C2D39 /* ZHDistrictManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52983D9C1D07ACB6009C2D39 /* ZHDistrictManager.m */; };
+		52983DA31D07F3BE009C2D39 /* ZHState.m in Sources */ = {isa = PBXBuildFile; fileRef = 52983DA21D07F3BE009C2D39 /* ZHState.m */; };
+		529C89D31D07F5FD0077950D /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 529C89D21D07F5FD0077950D /* Resource.bundle */; };
+		529C89D61D07F81B0077950D /* ZHCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C89D51D07F81B0077950D /* ZHCity.m */; };
+		529C89D91D07F8AE0077950D /* ZHDistrict.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C89D81D07F8AE0077950D /* ZHDistrict.m */; };
+		529C89DC1D081F5F0077950D /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C89DB1D081F5F0077950D /* StateViewController.m */; };
+		529C89DF1D0822D30077950D /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C89DE1D0822D30077950D /* CityViewController.m */; };
+		529C89E21D0826B30077950D /* DistrictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C89E11D0826B30077950D /* DistrictViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,21 @@
 		52983D8F1D07AC1A009C2D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52983D921D07AC1A009C2D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52983D941D07AC1A009C2D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52983D9B1D07ACB6009C2D39 /* ZHDistrictManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDistrictManager.h; sourceTree = "<group>"; };
+		52983D9C1D07ACB6009C2D39 /* ZHDistrictManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDistrictManager.m; sourceTree = "<group>"; };
+		52983DA11D07F3BE009C2D39 /* ZHState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHState.h; sourceTree = "<group>"; };
+		52983DA21D07F3BE009C2D39 /* ZHState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHState.m; sourceTree = "<group>"; };
+		529C89D21D07F5FD0077950D /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		529C89D41D07F81B0077950D /* ZHCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCity.h; sourceTree = "<group>"; };
+		529C89D51D07F81B0077950D /* ZHCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHCity.m; sourceTree = "<group>"; };
+		529C89D71D07F8AE0077950D /* ZHDistrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDistrict.h; sourceTree = "<group>"; };
+		529C89D81D07F8AE0077950D /* ZHDistrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDistrict.m; sourceTree = "<group>"; };
+		529C89DA1D081F5F0077950D /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		529C89DB1D081F5F0077950D /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		529C89DD1D0822D30077950D /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		529C89DE1D0822D30077950D /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		529C89E01D0826B30077950D /* DistrictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictViewController.h; sourceTree = "<group>"; };
+		529C89E11D0826B30077950D /* DistrictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +81,17 @@
 		52983D821D07AC1A009C2D39 /* ZhonghuaDistrict */ = {
 			isa = PBXGroup;
 			children = (
+				52983D9A1D07AC2A009C2D39 /* ZHDistrict */,
 				52983D861D07AC1A009C2D39 /* AppDelegate.h */,
 				52983D871D07AC1A009C2D39 /* AppDelegate.m */,
 				52983D891D07AC1A009C2D39 /* ViewController.h */,
 				52983D8A1D07AC1A009C2D39 /* ViewController.m */,
+				529C89DA1D081F5F0077950D /* StateViewController.h */,
+				529C89DB1D081F5F0077950D /* StateViewController.m */,
+				529C89DD1D0822D30077950D /* CityViewController.h */,
+				529C89DE1D0822D30077950D /* CityViewController.m */,
+				529C89E01D0826B30077950D /* DistrictViewController.h */,
+				529C89E11D0826B30077950D /* DistrictViewController.m */,
 				52983D8C1D07AC1A009C2D39 /* Main.storyboard */,
 				52983D8F1D07AC1A009C2D39 /* Assets.xcassets */,
 				52983D911D07AC1A009C2D39 /* LaunchScreen.storyboard */,
@@ -77,6 +107,23 @@
 				52983D841D07AC1A009C2D39 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52983D9A1D07AC2A009C2D39 /* ZHDistrict */ = {
+			isa = PBXGroup;
+			children = (
+				529C89D21D07F5FD0077950D /* Resource.bundle */,
+				52983D9B1D07ACB6009C2D39 /* ZHDistrictManager.h */,
+				52983D9C1D07ACB6009C2D39 /* ZHDistrictManager.m */,
+				52983DA11D07F3BE009C2D39 /* ZHState.h */,
+				52983DA21D07F3BE009C2D39 /* ZHState.m */,
+				529C89D41D07F81B0077950D /* ZHCity.h */,
+				529C89D51D07F81B0077950D /* ZHCity.m */,
+				529C89D71D07F8AE0077950D /* ZHDistrict.h */,
+				529C89D81D07F8AE0077950D /* ZHDistrict.m */,
+			);
+			name = ZHDistrict;
+			path = ../ZHDistrict;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +186,7 @@
 				52983D931D07AC1A009C2D39 /* LaunchScreen.storyboard in Resources */,
 				52983D901D07AC1A009C2D39 /* Assets.xcassets in Resources */,
 				52983D8E1D07AC1A009C2D39 /* Main.storyboard in Resources */,
+				529C89D31D07F5FD0077950D /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529C89DC1D081F5F0077950D /* StateViewController.m in Sources */,
+				529C89D61D07F81B0077950D /* ZHCity.m in Sources */,
 				52983D8B1D07AC1A009C2D39 /* ViewController.m in Sources */,
+				52983D9D1D07ACB6009C2D39 /* ZHDistrictManager.m in Sources */,
 				52983D881D07AC1A009C2D39 /* AppDelegate.m in Sources */,
+				529C89D91D07F8AE0077950D /* ZHDistrict.m in Sources */,
+				529C89DF1D0822D30077950D /* CityViewController.m in Sources */,
+				52983DA31D07F3BE009C2D39 /* ZHState.m in Sources */,
+				529C89E21D0826B30077950D /* DistrictViewController.m in Sources */,
 				52983D851D07AC1A009C2D39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = ZhonghuaDistrict/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.darktt.ZhonghuaDistrict;
@@ -276,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = ZhonghuaDistrict/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.darktt.ZhonghuaDistrict;
@@ -302,6 +359,7 @@
 				52983D991D07AC1A009C2D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
